@@ -1,5 +1,5 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
-import styles from './about.module.css';
+import styles from './About.module.css';
 
 const About = () => {
   return (

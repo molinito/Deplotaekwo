@@ -5,6 +5,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 
 const Carousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
+
     const images = ['/tae10.jpg', '/tae11.jpg', '/tae12.jpg'];
 
     useEffect(() => {
