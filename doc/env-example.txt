@@ -1,0 +1,9 @@
+DB_NAME='ExampleDB' /*nombre de base de datos*/
+DB_USERNAME='postgres' /*usuario Postgres*/
+DB_PASSWORD='root' /*pass Postgres*/
+DB_HOST='localhost'
+DB_DIALECT='postgres'
+DB_PORT='5432' /*por defecto en Postgres*/
+PORT='3000'
+
+POSTGRES_URI='postgres://postgres:postgres@localhost:5432/tkndDB'

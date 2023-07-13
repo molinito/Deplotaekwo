@@ -1,0 +1,125 @@
+.menuLink {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.descrip {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 5%;
+}
+
+.descrip1{
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 5%;
+}
+
+.photo1 {
+    width: 50%;
+    margin: 5%;
+}
+
+.btn {
+    background-color: #527ee4;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.middle {
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 10px #4747a3;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    }
+
+.middle1{
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 0 10px #4747a3;
+    border-radius: 5px;
+}    
+/* photo1 debe ajustarse al tamaño de la pantalla */
+
+
+.headtitle {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .headtitle {
+        font-size: 20px;
+    }
+
+    .descrip {
+        font-size: 14px;
+    }
+
+    .descrip1 {
+        font-size: 14px;
+    }
+
+    .photo1 {
+        width: 70%;
+    }
+
+    .middle {
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 0 10px #4747a3;
+        background-color: white;
+    }
+
+   
+}
+
+@media screen and (max-width: 480px) {
+    .headtitle {
+        font-size: 14px;
+    }
+
+    .descrip {
+        font-size: 10px;
+    }
+
+    .descrip1 {
+        font-size: 10px;
+    }
+    .photo1 {
+        width: 50%;
+    }
+    .middle {
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 0 10px #4747a3;
+        background-color: white;
+    }
+
+    .middle1 {
+        padding: 10px;
+        margin-bottom: 20px;
+        box-shadow: inset 0 0 10px #4747a3;
+        background-color: white;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+}
+    
