@@ -4,6 +4,12 @@ import styles from './Middle.module.css';
 const Middle = () => {
   return (
     <>
+    <div className={styles.title}>
+      <br />
+      <h1 className={styles.subtitle}>Federación de Taekwondo de Salta</h1>
+      <h2 className={styles.title}>Nuestra visión</h2>
+
+    </div>
       <Box bg="gray.100" p={4} display="flex" alignItems="center" className={styles.middle}>
         <Image
           src="/tae4.png"
