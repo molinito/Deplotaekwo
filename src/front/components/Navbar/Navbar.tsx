@@ -18,24 +18,24 @@ function Navbar() {
                             src="/logo1.jpg"
                             alt="logo"
                             className={styles.logo}
-
                         />
                     </Box>
                     <Box p="2">
-                        <Link href="/">Home</Link>
+                        <Link href="/">Inicio</Link>
                     </Box>
                     <Spacer />
                     <Box p="2">
-                        <Link href="/about">About</Link>
+                        <Link href="/about">Acerca de</Link>
                     </Box>
                     <Spacer />
                     <Box p="2">
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact">Contacto</Link>
                     </Box>
                     <Spacer />
                     <div
-                        className={`${styles.menuButton} ${isMenuOpen ? styles.menuButtonActive : ''
-                            }`}
+                        className={`${styles.menuButton} ${
+                            isMenuOpen ? styles.menuButtonActive : ''
+                        }`}
                         onClick={handleMenuToggle}
                     >
                         <span className={styles.hamburgerLine}></span>
@@ -47,7 +47,6 @@ function Navbar() {
                             src="/logo2.jpg"
                             alt="logo"
                             className={styles.logo}
-
                         />
                     </Box>
                 </Flex>

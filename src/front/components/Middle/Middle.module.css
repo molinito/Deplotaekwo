@@ -11,7 +11,7 @@
     margin: 5%;
 }
 
-.descrip1{
+.descrip1 {
     color: #666;
     font-size: 16px;
     margin-bottom: 20px;
@@ -43,17 +43,15 @@
     background-color: white;
     border-radius: 5px;
     margin-top: 10px;
+}
 
-    }
-
-.middle1{
+.middle1 {
     padding: 10px;
     margin-bottom: 20px;
     box-shadow: inset 0 0 10px #4747a3;
     border-radius: 5px;
-}    
+}
 /* photo1 debe ajustarse al tamaño de la pantalla */
-
 
 .headtitle {
     color: #333;
@@ -85,8 +83,6 @@
         box-shadow: inset 0 0 10px #4747a3;
         background-color: white;
     }
-
-   
 }
 
 @media screen and (max-width: 480px) {
@@ -121,5 +117,10 @@
     .btn {
         font-size: 12px;
     }
+    .subtitle {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 16px;
+    }
 }
-    
