@@ -5,10 +5,13 @@ import styles from './Header.module.css';
   return (
     <>
     <Box bg="gray.100" p={7} display="flex" alignItems="center" className={styles.header}>
-  <img src="/logo.jpg" alt="logo" className={styles.logo}/> 
+  <img src="/logo taekwondo1.jpg" alt="logo" className={styles.logo}/> 
   
         <Heading size="md" className={styles.headtitle}>
-        Federación de Taekwondo de la provincia de Salta
+        Federación Salteña de Taekwondo
+        <h6 className={styles.headsubtitle}>Ente Rector Provincial
+PJ N° 120/90
+Afiliada a la Confederacion Argentina de Taekwondo</h6>
         </Heading>
       
         

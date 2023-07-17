@@ -40,13 +40,13 @@
 
 .carousel .prevButton {
     left: 10px;
-    background-color: #4747a3;
+    background-color: #a30048;
     border-radius: 10%;
 }
 
 .carousel .nextButton {
     right: 10px;
-    background-color: #4747a3;
+    background-color:#a30048;
     border-radius: 10%;
 
 }

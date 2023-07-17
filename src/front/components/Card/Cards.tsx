@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({ title, description, link, className }) => {
 
 const CardList: React.FC = () => {
     return (
-        <>
+        <>  <br />
             <h1 className={styles.title}>
                 ¿Qué quieres saber? Contenido opcional{' '}
             </h1>

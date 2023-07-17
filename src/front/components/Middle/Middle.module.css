@@ -24,7 +24,7 @@
 }
 
 .btn {
-    background-color: #527ee4;
+    background-color: #a30048;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -39,7 +39,7 @@
 .middle {
     padding: 10px;
     margin-bottom: 20px;
-    box-shadow: inset 0 0 10px #4747a3;
+    box-shadow: inset 0 0 10px #730034;
     background-color: white;
     border-radius: 5px;
     margin-top: 10px;
@@ -48,7 +48,7 @@
 .middle1 {
     padding: 10px;
     margin-bottom: 20px;
-    box-shadow: inset 0 0 10px #4747a3;
+    box-shadow: inset 0 0 10px #730034;
     border-radius: 5px;
 }
 /* photo1 debe ajustarse al tamaño de la pantalla */
@@ -80,7 +80,7 @@
     .middle {
         padding: 10px;
         margin-bottom: 20px;
-        box-shadow: inset 0 0 10px #4747a3;
+        box-shadow: inset 0 0 10px #730034;
         background-color: white;
     }
 }
@@ -103,14 +103,14 @@
     .middle {
         padding: 10px;
         margin-bottom: 20px;
-        box-shadow: inset 0 0 10px #4747a3;
+        box-shadow: inset 0 0 10px #730034;
         background-color: white;
     }
 
     .middle1 {
         padding: 10px;
         margin-bottom: 20px;
-        box-shadow: inset 0 0 10px #4747a3;
+        box-shadow: inset 0 0 10px #730034;
         background-color: white;
     }
 

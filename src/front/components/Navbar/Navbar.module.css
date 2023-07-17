@@ -1,6 +1,6 @@
 .navbar {
     position: relative;
-    background-color: #4747a3;
+    background-color: #a30048;
     color: #fff;
     height: 120px;
 }
@@ -56,7 +56,7 @@
     top: calc(100% + 8px);
     right: 0;
     z-index: 2;
-    background-color: #4747a3;
+    background-color: #a30048;
     padding: 16px;
     list-style-type: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -99,7 +99,7 @@
         margin: 0;
         top: 100%;
         left: 0;
-        background-color: #4747a3;
+        background-color: #a30048;
         box-shadow: none;
         border-radius: 0;
         position: absolute;
