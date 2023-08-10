@@ -9,9 +9,9 @@ import styles from './Header.module.css';
   
         <Heading size="md" className={styles.headtitle}>
         Federación Salteña de Taekwondo
-        <h6 className={styles.headsubtitle}>Ente Rector Provincial
+        <p className={styles.headsubtitle}>Ente Rector Provincial
 PJ N° 120/90
-Afiliada a la Confederacion Argentina de Taekwondo</h6>
+Afiliada a la Confederacion Argentina de Taekwondo</p>
         </Heading>
       
         

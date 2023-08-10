@@ -1,4 +1,5 @@
 import '#config/env.js';
+import './setupEnv';
 import { application } from '#application/express.js';
 import { httpServer } from '#config/http.js';
 import { sequelize } from '#database/dao/sequelize.js';

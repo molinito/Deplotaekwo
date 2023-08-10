@@ -1,0 +1,622 @@
+/*
+.login,
+.login * {
+  box-sizing: border-box;
+}
+
+.login {
+  background: #000000;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-tae-1 {
+  width: 100%;
+  max-width: 917px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 53px;
+  transform: translateX(-50%);
+  opacity: 1.2;
+}
+
+.rectangle-42 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 477px;
+  transform: translateX(-50%);
+}
+
+.rectangle-422 {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  width: 100%;
+  max-width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  color: #000000;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 17px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.rectangle-422:focus {
+  background: #d9d9d9e6;
+}
+
+.rectangle-41 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 334px;
+  transform: translateX(-50%);
+}
+
+.rectangle-41.active {
+  background-color: #ffffff;
+}
+
+.rectangle-412 {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  width: 100%;
+  max-width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  color: #000000;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 17px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.rectangle-412:focus {
+  background: #d9d9d9e6;
+}
+
+.inicio-de-sesion {
+  color: #ffffff;
+  text-align: center;
+  font: 700 64px 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 118px;
+  transform: translateX(-50%);
+}
+
+
+.usuario {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px 'Roboto-Bold', Helvetica;
+  position: absolute;
+  left: 25%;
+  top: 294px;
+  line-height: normal;
+
+}
+
+.contrasena {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px 'Roboto-Bold', Helvetica;
+  position: absolute;
+  left: 25%;
+  top: 437px;
+}
+
+.group-31 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 616px;
+  transform: translateX(-50%);
+}
+
+.rectangle-37 {
+  background: #9c2941;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+
+
+.iniciar-sesion {
+  color: #ffffff;
+  text-align: center;
+  font: 500 32px 'Roboto', Helvetica;
+  position: absolute;
+  background: #9c2941;
+  border-radius: 10px;
+  width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+}
+
+.line-2 {
+  position: absolute;
+  left: 50%;
+  top: 764px;
+  transform: translate(-50%, -1px);
+  overflow: visible;
+}
+
+.line-3 {
+  position: absolute;
+  left: 50%;
+  top: 763px;
+  transform: translate(-50%, -1px);
+  overflow: visible;
+}
+
+.o {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 742px;
+  transform: translateX(-50%);
+}
+
+.component-2 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 846px;
+  transform: translateX(-50%);
+}
+
+.rectangle-40 {
+  background: #9c2941;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+
+.iniciar-sesion-con-google {
+  color: #ffffff;
+  text-align: center;
+  font: 500 32px 'Roboto', Helvetica;
+  position: absolute;
+  left: 275px;
+  background: #9c2941;
+  border-radius: 10px;
+  width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    width: 100%;
+    max-width: 768px;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inicio-de-sesion {
+    font-size: 36px;
+    top: 80px;
+    text-align: center;
+  }
+
+  .usuario {
+    font-size: 24px;
+    top: 300px;
+    left: auto;
+  }
+
+  .contrasena {
+    font-size: 24px;
+    top: 450px;
+    left: auto;
+  }
+
+  .rectangle-42 {
+    max-width: 90%;
+  }
+
+  .rectangle-41 {
+    max-width: 90%;
+  }
+
+  .group-31 {
+    max-width: 100%;
+    left: 55%;
+  }
+
+  .rectangle-37 {
+    max-width: 90%;
+  }
+
+  .iniciar-sesion {
+    max-width: 90%;
+    font-size: 24px;
+  }
+
+  .component-2 {
+    max-width: 90%;
+  }
+
+  .rectangle-40 {
+    max-width: 90%;
+  }
+
+  .iniciar-sesion-con-google {
+    max-width: 100%;
+    font-size: 24px;
+  }
+} */
+
+.login,
+.login * {
+  box-sizing: border-box;
+}
+
+.login {
+  background: #000000;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo-tae-1 {
+  width: 100%;
+  max-width: 917px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 53px;
+  transform: translateX(-50%);
+  opacity: 1.2;
+}
+
+.rectangle-42 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 477px;
+  transform: translateX(-50%);
+}
+
+.rectangle-422 {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  width: 100%;
+  max-width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  color: #000000;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 17px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.rectangle-422:focus {
+  background: #d9d9d9e6;
+}
+
+.rectangle-41 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 334px;
+  transform: translateX(-50%);
+}
+
+.rectangle-41.active {
+  background-color: #ffffff;
+}
+
+.rectangle-412 {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  width: 100%;
+  max-width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  opacity: 0.7;
+  color: #000000;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  top: 17px;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.rectangle-412:focus {
+  background: #d9d9d9e6;
+}
+
+.inicio-de-sesion {
+  color: #ffffff;
+  text-align: center;
+  font: 700 64px 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 118px;
+  transform: translateX(-50%);
+}
+
+
+.usuario {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px 'Roboto-Bold', Helvetica;
+  position: absolute;
+  left: 25%;
+  top: 294px;
+  line-height: normal;
+
+}
+
+.contrasena {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px 'Roboto-Bold', Helvetica;
+  position: absolute;
+  left: 25%;
+  top: 437px;
+}
+
+.group-31 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 616px;
+  transform: translateX(-50%);
+}
+
+.rectangle-37 {
+  background: #9c2941;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+
+
+.iniciar-sesion {
+  color: #ffffff;
+  text-align: center;
+  font: 500 32px 'Roboto', Helvetica;
+  position: absolute;
+  background: #9c2941;
+  border-radius: 10px;
+  width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+}
+
+.line-2 {
+  position: absolute;
+  left: 50%;
+  top: 764px;
+  transform: translate(-50%, -1px);
+  overflow: visible;
+}
+
+.line-3 {
+  position: absolute;
+  left: 50%;
+  top: 763px;
+  transform: translate(-50%, -1px);
+  overflow: visible;
+}
+
+.o {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px 'Roboto', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 742px;
+  transform: translateX(-50%);
+}
+
+.component-2 {
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 846px;
+  transform: translateX(-50%);
+}
+
+.rectangle-40 {
+  background: #9c2941;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 734px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+
+.iniciar-sesion-con-google {
+  color: #ffffff;
+  text-align: center;
+  font: 500 32px 'Roboto', Helvetica;
+  position: absolute;
+  left: 275px;
+  background: #9c2941;
+  border-radius: 10px;
+  width: 734px;
+  height: 60px;
+  position: absolute;
+  left: 0px;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .container {
+    width: 100%;
+    max-width: 768px;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .inicio-de-sesion {
+    font-size: 48px;
+    top: 80px;
+    text-align: center;
+  }
+
+  .usuario {
+    font-size: 24px;
+    top: 300px;
+    left: auto;
+  }
+
+  .contrasena {
+    font-size: 24px;
+    top: 450px;
+    left: auto;
+  }
+
+  .rectangle-42 {
+    max-width: 90%;
+  }
+
+
+  .rectangle-41 {
+    max-width: 90%;
+  }
+
+  .group-31 {
+    max-width: 100%;
+    left: 55%;
+  }
+
+  .rectangle-37 {
+    max-width: 90%;
+
+  }
+
+  .iniciar-sesion {
+    max-width: 90%;
+    font-size: 24px;
+  }
+
+  .component-2 {
+    max-width: 90%;
+  }
+
+  .rectangle-40 {
+    max-width: 90%;
+  }
+
+  .iniciar-sesion-con-google {
+    max-width: 100%;
+    font-size: 24px;
+  }
+}

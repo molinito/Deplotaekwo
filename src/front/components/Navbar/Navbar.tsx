@@ -9,6 +9,7 @@ function Navbar() {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    
     return (
         <Box className={styles.navbar}>
             <Box bg="gray.100" className={styles.box}>

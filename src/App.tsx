@@ -1,8 +1,8 @@
 import './App.css';
-import { BrowserRouter as Router,Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Switch, Route, } from 'react-router-dom';
 import Navbar from './front/components/Navbar/Navbar.tsx';
 import Footer from './front/components/Footer/Footer.tsx';
-import Login from './front/components/Login/Login.tsx';
+import Login  from './front/components/Login/Login.tsx';
 import Header from './front/components/Header/Header.tsx';
 import Middle from './front/components/Middle/Middle.tsx';
 import Dashboard from './front/components/Dashboard/Dashboard.tsx';
@@ -13,7 +13,12 @@ import Alumnos from './front/components/Alumnos/Alumnos.tsx';
 import Arbitros from './front/components/Arbitros/Arbitros.tsx';
 import Escuelas from './front/components/Escuelas/Escuelas.tsx';
 
+
+
+
 const App = () => {
+
+
   return (
     <div className="App">
     <Router>
@@ -39,5 +44,7 @@ const App = () => {
     </div>
   );
 };
+
+
 
 export default App;
